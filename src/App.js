@@ -2,11 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import Multibutton from './Multibutton';
 import SubmitButton from './SubmitButton';
-import { useState } from "react";
+
+import ConditionalCheck from './conditionalCheck';
 
 function App() {
-
-  
 
   return (
     <div className="App">
@@ -41,6 +40,10 @@ function App() {
           <br />
           <label>I dislike cats</label>
           <input type="checkbox"></input>
+          <br/>
+          
+          
+          <ConditionalCheck/>
         </div>
         <div className="schoolType">
           <p className="sectionTitle">What kind of school do you attend?</p>

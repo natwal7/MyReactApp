@@ -20,7 +20,9 @@ jobs:
       - run: npm ci
       
       - name: Build app
-        run: PUBLIC_URL=https://natwal7.github.io/MyReactApp/ npm run build
+        run: PUBLIC_URL=https://natwal7.github.io/MyReactApp/ npm run build 
+        env:
+          CI: false
       
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v1.0.4

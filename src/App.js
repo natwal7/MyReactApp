@@ -58,8 +58,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-{/* <Multibutton items={[['one', 'ONE'], ['two', 'TWO'], ['three', ]]}></Multibutton> */}

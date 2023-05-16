@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import Multibutton from './Multibutton';
 import SubmitButton from './SubmitButton';
 

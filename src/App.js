@@ -1,5 +1,6 @@
 import Multibutton from './Multibutton';
 import SubmitButton from './SubmitButton';
+import './App.css';
 
 import ConditionalCheck from './conditionalCheck';
 
